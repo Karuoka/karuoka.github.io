@@ -2,48 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://karuoka.ru/blog/hugo-and-its-future/</loc>
-    <lastmod>2020-09-07T20:18:07+06:00</lastmod>
+    <loc>https://karuoka.github.io/categories/</loc>
   </url><url>
-    <loc>https://karuoka.ru/</loc>
-    <lastmod>2020-09-07T20:18:07+06:00</lastmod>
+    <loc>https://karuoka.github.io/</loc>
   </url><url>
-    <loc>https://karuoka.ru/blog/corona-and-future-of-coders/</loc>
-    <lastmod>2020-09-06T20:18:07+06:00</lastmod>
+    <loc>https://karuoka.github.io/privacy/</loc>
   </url><url>
-    <loc>https://karuoka.ru/blog/is-working-from-home-effective/</loc>
-    <lastmod>2020-09-05T20:18:07+06:00</lastmod>
+    <loc>https://karuoka.github.io/tags/</loc>
   </url><url>
-    <loc>https://karuoka.ru/blog/know-when-to-take-break/</loc>
-    <lastmod>2020-09-04T20:18:07+06:00</lastmod>
-  </url><url>
-    <loc>https://karuoka.ru/blog/future-of-cloud-computing/</loc>
-    <lastmod>2020-09-03T20:18:07+06:00</lastmod>
-  </url><url>
-    <loc>https://karuoka.ru/blog/how-solve-coding-problem/</loc>
-    <lastmod>2020-09-03T20:18:07+06:00</lastmod>
-  </url><url>
-    <loc>https://karuoka.ru/blog/freelancing-and-corona/</loc>
-    <lastmod>2020-09-02T20:18:07+06:00</lastmod>
-  </url><url>
-    <loc>https://karuoka.ru/blog/announcing-our-2016-roadmap/</loc>
-    <lastmod>2020-09-01T20:18:07+06:00</lastmod>
-  </url><url>
-    <loc>https://karuoka.ru/blog/announcing-our-2019-roadmap/</loc>
-    <lastmod>2020-09-01T12:59:58+06:00</lastmod>
-  </url><url>
-    <loc>https://karuoka.ru/blog/a-new-year-a-new-website-introducing-apsho-1/</loc>
-    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
-    <loc>https://karuoka.ru/blog/</loc>
-    <lastmod>2020-08-31T20:33:11+06:00</lastmod>
-  </url><url>
-    <loc>https://karuoka.ru/categories/</loc>
-  </url><url>
-    <loc>https://karuoka.ru/contact/</loc>
-  </url><url>
-    <loc>https://karuoka.ru/privacy/</loc>
-  </url><url>
-    <loc>https://karuoka.ru/tags/</loc>
+    <loc>https://karuoka.github.io/subscription/</loc>
   </url>
 </urlset>

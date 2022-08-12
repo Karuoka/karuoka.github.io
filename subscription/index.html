@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8" />
+  <title>Записаться на курс</title>
+
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Themify -->
+  <link rel="stylesheet" href="https://karuoka.github.io/themify/themify.css">
+
+  <!-- Critical CSS -->
+  
+  <link href="https://karuoka.github.io/scss/critical.min.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://karuoka.github.io/images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="https://karuoka.github.io/images/favicon.png" type="image/x-icon" />
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175025671-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-175025671-2');
+  </script>
+	
+</head>
+
+  <body>
+    <nav class="main-nav navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand" href="https://karuoka.github.io/">
+      <img
+        class="logo-main"
+        src="https://karuoka.github.io/images/logo.svg"
+        alt="logo-white"
+      />
+    </a>
+    <!-- Toogle Button -->
+    <button
+      class="navbar-toggler collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#mainNav"
+    >
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      
+      
+      <ul class="navbar-nav ml-auto">
+      
+        <li class="nav-item">
+          <a href="https://karuoka.github.io/#hero" class="nav-link ">Домой</a>
+        </li>
+      
+        <li class="nav-item">
+          <a href="https://karuoka.github.io/#service" class="nav-link ">Преимущества</a>
+        </li>
+      
+        <li class="nav-item">
+          <a href="https://karuoka.github.io/#faq" class="nav-link ">Вопросы</a>
+        </li>
+      
+      </ul>
+      <div class="account-list list-inline">
+        <li class="list-inline-item">
+          <a href="https://karuoka.github.io/subscription" class="btn btn-sm btn-violate">
+            Записаться на курс
+          </a>
+        </li>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <div id="content">
+      
+
+<!--contactHeader.html-->
+  <section class="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Записаться на курс</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!--contactForm.html-->
+  <section class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <form id="contact-form" action="https://formspree.io/mknyovwz" method="POST" class="contact-form row">
+            <div class="col-lg-6">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Ваше имя"
+                name="Name"
+                required
+              />
+            </div>
+            <div class="col-lg-6">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Ваш Email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Ваши пожелания" name="subject" />
+            </div>
+
+
+            <div class="col-12">
+            <div class="faq-accordion" id="faqAccordion">
+              <div class="faq-accordion-item">
+                <div class="header">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapse"
+                      aria-expanded="false"
+                    >
+                      Полные условия обучения на курсе.
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="collapse"
+                  class="collapse"
+                  data-parent="#faqAccordion"
+                >
+                  <div class="body">
+                    Надо учиться, учиться и еще раз учиться
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+            <div class="col-12 align-self-center">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="first_level"
+                  name="level"
+                />
+                <label class="form-check-label" for="first_level">
+                  Мой уровень начальный и я хочу учить язык по веселым детским песням
+                </label>
+              </div>
+            </div>
+            <div class="col-12 align-self-center">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="second_level"
+                  name="level"
+                />
+                <label class="form-check-label" for="second_level">
+                  Хочу учить по взрослым песням. С помощью 10 песен можно выучить 500 базовых английскийх слов.
+                </label>
+              </div>
+            </div>
+            <div class="col-12 align-self-center">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="third_level"
+                  name="level"
+                />
+                <label class="form-check-label" for="third_level">
+                  Не нужны мне песни. Я хочу продвинутый живой Английский. Из диалогов и передач.
+                </label>
+              </div>
+            </div>
+            <div class="col-12 align-self-center">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="last_level"
+                  name="level"
+                />
+                <label class="form-check-label" for="last_level">
+                  Не хочу учить Английский. От слова совсем. Просто хочу петь и понимать свои любимые песни.
+                </label>
+              </div>
+            </div>
+            <div class="col-12 text-center ">
+              <button id="contact-form-button" class="btn btn-primary-filled" type="submit">
+                Записаться
+              </button>
+            </div>
+            <div class="col-12">
+              <p id="contact-form-status" class="mt-3"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    </div>
+    <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="footer-subscribe-title">
+          <h2>До встречи на курсе!</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-4">
+        <div class="footer-description">
+          <img src="https://karuoka.github.io/images/logo.svg" alt="logo">
+          <p>
+            All right reserved
+              </br>
+              
+          </p>
+          <ul class="footer-description-social">
+            <li>
+              <a href="https://www.facebook.com/pg/staticmania"><i class="ti-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/static_mania"><i class="ti-twitter-alt"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/StaticMania"><i class="ti-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="footer-widget">
+          <h4>Sitemap</h4>
+          <div class="footer-widget-list">
+            <ul>
+              
+                
+                  <li><a href="https://karuoka.github.io/">Домой</a></li>
+              
+                  <li><a href="https://karuoka.github.io/contact">Контакты</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="footer-widget">
+          <h4>Address</h4>
+          
+          <div class="footer-widget-list">
+            <ul>
+              <li><a href="tel:&#43;%28448%29%20833%205272%20332"><i class="ti-mobile"></i>&#43;(448) 833 5272 332</a></li> 
+              <li><a href="mailto:apsho@example.com"><i class="ti-email"></i>apsho@example.com</a></li>
+              <li><p><i class="ti-pin"></i>23 Khan Niketon, Grand Street, NYK.</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<link href="https://karuoka.github.io/scss/non-critical.min.css" rel="stylesheet" />
+
+<script src="https://karuoka.github.io/js/vendor.min.js"></script>
+
+<script src="https://karuoka.github.io/js/form-handler.min.js"></script>
+
+<script src="https://karuoka.github.io/js/script.min.js"></script>
+  </body>
+</html>
